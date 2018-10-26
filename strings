@@ -1,0 +1,8 @@
+text = "X-DSPAM-Confidence:    0.8475"
+a = text.find('0')
+#print(a)
+b = text.find('5',a)
+#print(b)
+c = text[a:b+1]
+d = float(c)
+print(d)
